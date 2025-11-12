@@ -27,7 +27,6 @@ I highly encourage you to take this opportunity to learn about and use web devel
 
 I have a few pieces of advice for you:
 - Don't skimp out on the frontend. I want your sites to look pretty, so really make an effort to give them a nice visual aesthetic. You are welcome to use a UI library such as [Material UI](https://mui.com/material-ui/all-components/).
-- Don't forget to put any private information, such as API keys, in your .env file. Put the .env file in your .gitignore so it is not pushed onto GitHub.
 - Feel free to use my technical assessment when I applied for Impact Team, [Our Republic](https://our-republic.vercel.app/), as a model and a guide for you. It has some of the features we didn't cover in the JDT workshops, such as multiple pages, so feel free to copy my main.jsx code from there when working to implement that. You can access the code for it [here](https://github.com/adam-godel/our-republic/).
 - You may want to look over the [Glued Trees](https://gluedtrees.com/) website I made after I worked on a research project in summer 2024. This is kind of along the lines of what I'm thinking of, but your website should look better and have a lot more features than this one does.
   
