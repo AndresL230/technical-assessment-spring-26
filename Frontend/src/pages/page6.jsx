@@ -10,7 +10,7 @@ function NarrativePage() {
 
       <section className="intro">
         <p>
-          Music isn't just decorationit's a fundamental storytelling tool. Composers work
+          Music isn't just decoration it's a fundamental storytelling tool. Composers work
           closely with directors to shape narrative, develop characters, and create cohesive
           cinematic experiences.
         </p>
@@ -146,7 +146,7 @@ function NarrativePage() {
       <section className="content-section">
         <h2>Emotional Anchoring</h2>
         <p>
-          Music creates <strong>emotional anchors</strong>associations between themes and
+          Music creates <strong>emotional anchors</strong> associations between themes and
           specific feelings that persist throughout (and beyond) the film.
         </p>
         <p>
@@ -155,7 +155,7 @@ function NarrativePage() {
           Up theme can make you cry even out of context.
         </p>
         <p>
-          This emotional programming is one of music's most powerful narrative toolsit
+          This emotional programming is one of music's most powerful narrative tools it
           tells us how to feel without a single word.
         </p>
       </section>

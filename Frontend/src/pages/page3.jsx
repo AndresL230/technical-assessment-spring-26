@@ -88,7 +88,7 @@ function InstrumentationPage() {
           <li>Psychological horror (It Follows)</li>
         </ul>
         <p>
-          Many modern scores blend bothorchestral warmth with electronic edge (Inception,
+          Many modern scores blend both orchestral warmth with electronic edge (Inception,
           Interstellar).
         </p>
 

@@ -90,7 +90,7 @@ function PowerOfScorePage() {
           Music provides the <strong>pulse and rhythm</strong> that drives narrative momentum.
         </p>
         <p>
-          A film editor once said, "I don't cut to pictureI cut to music." The score
+          A film editor once said, "I don't cut to picture I cut to music." The score
           tells them where scenes should begin and end, when to linger, when to rush.
         </p>
         <p><strong>Musical pacing control:</strong></p>
@@ -155,7 +155,7 @@ function PowerOfScorePage() {
           <li><strong>Peter Jackson & Howard Shore:</strong> Lord of the Rings and Hobbit trilogies</li>
         </ul>
         <p>
-          These partnerships create signature soundsyou can often identify the director
+          These partnerships create signature sounds you can often identify the director
           just by hearing the score.
         </p>
       </section>
@@ -193,14 +193,14 @@ function PowerOfScorePage() {
       <section className="conclusion">
         <h2>Why Film Scores Matter</h2>
         <p>
-          Film music is the invisible storytellerthe emotional voice that speaks directly
+          Film music is the invisible storyteller the emotional voice that speaks directly
           to our hearts without words. It makes us cry, cheer, gasp, and remember. It
           transforms images on a screen into experiences that stay with us for life.
         </p>
         <p>
           Next time you watch a film, pay attention to the score. Notice how it guides
           your feelings, builds tension, creates themes, and enhances every moment. You'll
-          discover a whole new dimension to cinemaone that's been working its magic on
+          discover a whole new dimension to cinema one that's been working its magic on
           you all along.
         </p>
         <p>
