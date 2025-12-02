@@ -1,5 +1,6 @@
 import Quiz from '../components/Quiz';
 import Comments from '../components/Comments';
+import YouTubeEmbed from '../components/YouTubeEmbed';
 import './pages.css';
 
 function MusicalElementsPage() {
@@ -52,6 +53,16 @@ function MusicalElementsPage() {
           <em>Example:</em> Star Wars' main theme (major key = heroic) versus the Imperial
           March (minor key = threatening).
         </p>
+
+        <YouTubeEmbed
+          videoId="_D0ZQPqeJkk"
+          title="Star Wars Main Theme - John Williams (Major Key - Heroic)"
+        />
+
+        <YouTubeEmbed
+          videoId="-bzWSJG93P8"
+          title="Imperial March - John Williams (Minor Key - Threatening)"
+        />
       </section>
 
       <Quiz

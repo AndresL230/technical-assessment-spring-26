@@ -77,8 +77,8 @@ function Quiz({ question, options, correctAnswer, questionId }) {
             <div className="quiz-feedback">
               <p className={selectedAnswer === correctAnswer ? 'feedback-correct' : 'feedback-incorrect'}>
                 {selectedAnswer === correctAnswer
-                  ? '✓ Correct!'
-                  : `✗ Incorrect. The correct answer is: ${correctAnswer}`}
+                  ? 'Correct!'
+                  : `Incorrect. The correct answer is: ${correctAnswer}`}
               </p>
             </div>
 

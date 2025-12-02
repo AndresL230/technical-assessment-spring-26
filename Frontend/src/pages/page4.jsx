@@ -1,5 +1,6 @@
 import Quiz from '../components/Quiz';
 import Comments from '../components/Comments';
+import YouTubeEmbed from '../components/YouTubeEmbed';
 import './pages.css';
 
 function TechniquesPage() {
@@ -32,6 +33,11 @@ function TechniquesPage() {
           Leitmotifs create continuity and can evolve throughout a film as characters change
           and develop.
         </p>
+
+        <YouTubeEmbed
+          videoId="wtHra9tFISY"
+          title="Hedwig's Theme - Harry Potter (Leitmotif Example)"
+        />
       </section>
 
       <Quiz

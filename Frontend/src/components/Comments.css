@@ -1,8 +1,8 @@
 .comments-section {
   width: 100%;
   max-width: 900px;
-  margin: 4rem auto 2rem;
-  padding: 2rem;
+  margin: 3rem auto 2rem;
+  padding: 1.5rem 2rem;
   background-color: #f8f9fa;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -49,6 +49,8 @@
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  width: auto;
+  display: inline-block;
 }
 
 .comment-form button:hover {
@@ -59,12 +61,6 @@
   width: 100%;
 }
 
-.comments-list > p {
-  color: #6c757d;
-  font-style: italic;
-  text-align: center;
-  padding: 2rem;
-}
 
 .comment {
   width: 100%;

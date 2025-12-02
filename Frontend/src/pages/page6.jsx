@@ -1,5 +1,6 @@
 import Quiz from '../components/Quiz';
 import Comments from '../components/Comments';
+import YouTubeEmbed from '../components/YouTubeEmbed';
 import './pages.css';
 
 function NarrativePage() {
@@ -51,6 +52,11 @@ function NarrativePage() {
           This musical character development happens subconsciously, but powerfully affects
           how we perceive character arcs.
         </p>
+
+        <YouTubeEmbed
+          videoId="IlmiRndxkU8"
+          title="The Shire Theme - Lord of the Rings (Character Journey)"
+        />
       </section>
 
       <Quiz

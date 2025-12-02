@@ -1,5 +1,6 @@
 import Quiz from '../components/Quiz';
 import Comments from '../components/Comments';
+import YouTubeEmbed from '../components/YouTubeEmbed';
 import './pages.css';
 
 function InstrumentationPage() {
@@ -57,6 +58,11 @@ function InstrumentationPage() {
           <li><strong>Urgency:</strong> Quick percussion hits (Mission: Impossible)</li>
           <li><strong>Impact:</strong> Cymbal crashes at dramatic moments</li>
         </ul>
+
+        <YouTubeEmbed
+          videoId="saalGKY7ifU"
+          title="Titanic - My Heart Will Go On (Strings for Romance)"
+        />
       </section>
 
       <Quiz
@@ -85,6 +91,11 @@ function InstrumentationPage() {
           Many modern scores blend bothorchestral warmth with electronic edge (Inception,
           Interstellar).
         </p>
+
+        <YouTubeEmbed
+          videoId="mpMg1upld0w"
+          title="Terminator - Main Theme (Electronic/Synth Score)"
+        />
       </section>
 
       <Quiz

@@ -1,5 +1,6 @@
 import Quiz from '../components/Quiz';
 import Comments from '../components/Comments';
+import YouTubeEmbed from '../components/YouTubeEmbed';
 import './pages.css';
 
 function PowerOfScorePage() {
@@ -33,6 +34,11 @@ function PowerOfScorePage() {
           These scenes would still exist without music, but they wouldn't be <em>iconic</em>.
           The music makes them unforgettable.
         </p>
+
+        <YouTubeEmbed
+          videoId="ioE_O7Lm0I4"
+          title="Rocky - Gonna Fly Now (Iconic Scene)"
+        />
       </section>
 
       <Quiz

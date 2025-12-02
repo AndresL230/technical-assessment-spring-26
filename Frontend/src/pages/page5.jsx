@@ -1,5 +1,6 @@
 import Quiz from '../components/Quiz';
 import Comments from '../components/Comments';
+import YouTubeEmbed from '../components/YouTubeEmbed';
 import './pages.css';
 
 function FamousScoresPage() {
@@ -34,6 +35,11 @@ function FamousScoresPage() {
           Director Steven Spielberg initially thought Williams was joking with such a simple
           theme. It became one of the most recognizable motifs ever written.
         </p>
+
+        <YouTubeEmbed
+          videoId="BX3bN5YeiQs"
+          title="Jaws Theme - John Williams"
+        />
       </section>
 
       <Quiz
@@ -64,6 +70,11 @@ function FamousScoresPage() {
           <li>Music tells the story even without visuals</li>
           <li>Inspired by classical composers (Holst, Wagner, Korngold)</li>
         </ul>
+
+        <YouTubeEmbed
+          videoId="_D0ZQPqeJkk"
+          title="Star Wars Main Theme - John Williams"
+        />
       </section>
 
       <Quiz
@@ -92,6 +103,11 @@ function FamousScoresPage() {
           The score works as intellectual puzzle and emotional journey, perfectly matching
           Nolan's complex narrative.
         </p>
+
+        <YouTubeEmbed
+          videoId="RxabLA7UQ9k"
+          title="Inception - Time (Hans Zimmer)"
+        />
       </section>
 
       <section className="content-section">
@@ -113,6 +129,11 @@ function FamousScoresPage() {
           The organ creates unexpected warmth in the cold vacuum of space, emphasizing
           the human element in a cosmic journey.
         </p>
+
+        <YouTubeEmbed
+          videoId="UDVtMYqUAyw"
+          title="Interstellar - Main Theme (Hans Zimmer)"
+        />
       </section>
 
       <Quiz

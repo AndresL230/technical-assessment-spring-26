@@ -56,9 +56,7 @@ function Comments({ pageId }) {
       </form>
 
       <div className="comments-list">
-        {comments.length === 0 ? (
-          <p>No comments yet. Be the first to comment!</p>
-        ) : (
+        {comments.length > 0 && (
           comments.map(comment => (
             <div key={comment.id} className="comment">
               <div className="comment-header">
