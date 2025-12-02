@@ -1,10 +1,13 @@
 import { useState, useEffect } from 'react';
+import NamePromptModal from './NamePromptModal';
 import './Quiz.css';
 
 function Quiz({ question, options, correctAnswer, questionId }) {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [hasAnswered, setHasAnswered] = useState(false);
   const [userName, setUserName] = useState('');
+  const [showNameModal, setShowNameModal] = useState(false);
+  const [pendingAnswer, setPendingAnswer] = useState(null);
   // Mock results - will be replaced with database later
   const [results, setResults] = useState({});
 
@@ -16,15 +19,31 @@ function Quiz({ question, options, correctAnswer, questionId }) {
     }
   }, []);
 
+  const handleNameSubmit = (name) => {
+    localStorage.setItem('userName', name);
+    setUserName(name);
+    setShowNameModal(false);
+
+    // Process the pending answer
+    if (pendingAnswer !== null) {
+      setSelectedAnswer(pendingAnswer);
+      setHasAnswered(true);
+
+      // Update mock results
+      setResults(prev => ({
+        ...prev,
+        [pendingAnswer]: [...(prev[pendingAnswer] || []), name]
+      }));
+
+      setPendingAnswer(null);
+    }
+  };
+
   const handleAnswer = (answer) => {
     if (!userName) {
-      const name = prompt('Please enter your name:');
-      if (name) {
-        localStorage.setItem('userName', name);
-        setUserName(name);
-      } else {
-        return;
-      }
+      setPendingAnswer(answer);
+      setShowNameModal(true);
+      return;
     }
 
     setSelectedAnswer(answer);
@@ -53,6 +72,12 @@ function Quiz({ question, options, correctAnswer, questionId }) {
 
   return (
     <div className="quiz-container">
+      <NamePromptModal
+        isOpen={showNameModal}
+        onClose={() => setShowNameModal(false)}
+        onSubmit={handleNameSubmit}
+      />
+
       <form className="quiz-form" onSubmit={(e) => e.preventDefault()}>
         <h3 className="quiz-question">{question}</h3>
         <div className="quiz-options">

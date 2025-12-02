@@ -1,10 +1,13 @@
 import { useState, useEffect } from 'react';
+import NamePromptModal from './NamePromptModal';
 import './Comments.css';
 
 function Comments({ pageId }) {
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState('');
   const [userName, setUserName] = useState('');
+  const [showNameModal, setShowNameModal] = useState(false);
+  const [pendingComment, setPendingComment] = useState('');
 
   useEffect(() => {
     // Get username from localStorage
@@ -14,17 +17,34 @@ function Comments({ pageId }) {
     }
   }, []);
 
+  const handleNameSubmit = (name) => {
+    localStorage.setItem('userName', name);
+    setUserName(name);
+    setShowNameModal(false);
+
+    // Submit the pending comment
+    if (pendingComment.trim()) {
+      const comment = {
+        id: Date.now(),
+        pageId,
+        userName: name,
+        text: pendingComment,
+        timestamp: new Date().toISOString()
+      };
+
+      setComments([...comments, comment]);
+      setNewComment('');
+      setPendingComment('');
+    }
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
     if (!userName) {
-      const name = prompt('Please enter your name:');
-      if (name) {
-        localStorage.setItem('userName', name);
-        setUserName(name);
-      } else {
-        return;
-      }
+      setPendingComment(newComment);
+      setShowNameModal(true);
+      return;
     }
 
     if (newComment.trim()) {
@@ -44,6 +64,12 @@ function Comments({ pageId }) {
   return (
     <div className="comments-section">
       <h3>Comments</h3>
+
+      <NamePromptModal
+        isOpen={showNameModal}
+        onClose={() => setShowNameModal(false)}
+        onSubmit={handleNameSubmit}
+      />
 
       <form onSubmit={handleSubmit} className="comment-form">
         <textarea
