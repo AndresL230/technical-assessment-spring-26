@@ -11,7 +11,7 @@ function HomePage() {
       <section className="intro">
         <p>
           Film scores are the invisible storytellers of cinema. They guide your emotions,
-          heighten tension, and create unforgettable momentsall without you consciously
+          heighten tension, and create unforgettable moments all without you consciously
           noticing. From the ominous two-note theme of Jaws to the sweeping orchestral
           grandeur of Star Wars, music transforms good films into great ones.
         </p>
@@ -27,7 +27,7 @@ function HomePage() {
         <h3>Did You Know?</h3>
         <p>
           Studies show that scenes with music are remembered 40% better than those without.
-          Music doesn't just accompany the storyit becomes part of your memory of it.
+          Music doesn't just accompany the story it becomes part of your memory of it.
         </p>
       </section>
 

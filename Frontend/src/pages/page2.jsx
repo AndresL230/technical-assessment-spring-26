@@ -91,7 +91,7 @@ function MusicalElementsPage() {
       <section className="content-section">
         <h2>Melody vs Harmony</h2>
         <p>
-          The <strong>melody</strong> is what you humthe main tune that sticks in your head.
+          The <strong>melody</strong> is what you hum the main tune that sticks in your head.
         </p>
         <p>
           The <strong>harmony</strong> supports the melody with chords and additional notes,

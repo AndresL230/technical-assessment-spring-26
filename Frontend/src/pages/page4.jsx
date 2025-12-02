@@ -66,7 +66,7 @@ function TechniquesPage() {
         </ul>
         <p>
           While often associated with comedy and animation, subtle mickey mousing appears
-          in serious films toolike musical accents on punches in fight scenes.
+          in serious films too like musical accents on punches in fight scenes.
         </p>
       </section>
 
@@ -136,7 +136,7 @@ function TechniquesPage() {
           This is the traditional film score that accompanies scenes.
         </p>
         <p>
-          <strong>Source music (diegetic music):</strong> Music that exists in the film's world
+          <strong>Source music (diegetic music):</strong> Music that exists in the film's world 
           playing on a radio, performed by characters, heard at a party, etc.
         </p>
         <p>

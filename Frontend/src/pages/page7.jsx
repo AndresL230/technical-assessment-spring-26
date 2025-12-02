@@ -111,7 +111,7 @@ function PowerOfScorePage() {
         <p>
           When music swells, we know something important is happening. When it goes quiet,
           we lean in. When it turns ominous, we prepare for danger. This guidance happens
-          below conscious awarenesswe don't think about it, we just respond.
+          below conscious awareness we don't think about it, we just respond.
         </p>
       </section>
 
