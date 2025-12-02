@@ -1,0 +1,130 @@
+.comments-section {
+  width: 100%;
+  max-width: 900px;
+  margin: 4rem auto 2rem;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comments-section h3 {
+  font-size: 1.75rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.comment-form {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.comment-form textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  resize: vertical;
+  min-height: 100px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.comment-form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.comment-form button {
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.comment-form button:hover {
+  background-color: #0056b3;
+}
+
+.comments-list {
+  width: 100%;
+}
+
+.comments-list > p {
+  color: #6c757d;
+  font-style: italic;
+  text-align: center;
+  padding: 2rem;
+}
+
+.comment {
+  width: 100%;
+  background-color: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.comment-header strong {
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+.comment-date {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.comment-text {
+  color: #495057;
+  line-height: 1.6;
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .comments-section {
+    padding: 1.5rem;
+    margin: 3rem auto 1rem;
+  }
+
+  .comment-form textarea {
+    min-height: 80px;
+    font-size: 0.95rem;
+  }
+
+  .comment-form button {
+    width: 100%;
+  }
+
+  .comment {
+    padding: 1rem;
+  }
+
+  .comment-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+}

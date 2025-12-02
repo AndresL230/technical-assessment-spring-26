@@ -1,11 +1,11 @@
-# [YOUR FULL NAME]'s Submission
-**Date**: [date here]
+# Andres Lopez's Submission
+**Date**: 12/1/25
 
-**BU Email**: [email here]
+**BU Email**: aflopez@bu.edu
 
-**Class Year**: [year here]
+**Class Year**: 2028
 
-**Favorite Hobby**: [hobby here]
+**Favorite Hobby**: Backpacking
 
 ## Requirements
 Please check off which features you have implemented:

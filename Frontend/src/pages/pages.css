@@ -1,0 +1,210 @@
+/* General Page Styles */
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Typography */
+.page h1 {
+  font-size: 2.5rem;
+  color: #1a1a2e;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.page h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.page h3 {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+}
+
+.page h4 {
+  font-size: 1.25rem;
+  color: #495057;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.page p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Sections */
+section {
+  margin-bottom: 3rem;
+}
+
+.intro {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+
+.content-section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 2rem;
+}
+
+.content-section:last-of-type {
+  border-bottom: none;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+}
+
+.hero h1 {
+  color: #1a1a2e;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero h2 {
+  color: #555;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Special Sections */
+.quick-fact {
+  border: 2px solid #e9ecef;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 3rem 0;
+}
+
+.quick-fact h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.overview {
+  border: 2px solid #e9ecef;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 3rem 0;
+}
+
+.overview h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.navigation-prompt {
+  text-align: center;
+  border: 2px solid #e9ecef;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 3rem;
+}
+
+.navigation-prompt p {
+  color: #555;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Remove bullets but keep content */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 1rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  border-bottom: 1px solid #e9ecef;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Strong/Bold text */
+strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Emphasis/Italic text */
+em {
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page {
+    padding: 1rem 0.5rem;
+  }
+
+  .page h1 {
+    font-size: 2rem;
+  }
+
+  .page h2 {
+    font-size: 1.5rem;
+  }
+
+  .page h3 {
+    font-size: 1.25rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+
+  .intro,
+  .quick-fact,
+  .overview,
+  .navigation-prompt {
+    padding: 1.5rem;
+  }
+
+  li {
+    padding: 0.75rem 0;
+    padding-left: 1.5rem;
+  }
+}
